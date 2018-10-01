@@ -16,6 +16,6 @@ It's a little jumpy, but I've had experience with jumpy sensors before. One aver
 
 Ah, much better. Now to do something with it. I wrote a Goldilocks function to implement my idea from above, and ended up with this:
 
-![Imgur](https://i.imgur.com/yt0Gckk.gifv)
+https://i.imgur.com/yt0Gckk.gifv
 
 Since the output to the console is just the raw ADC value, I'd like to make a function that takes that and converts it to either Fahrenheit or Celsius. Additionally, I'm using ADC1 for the sole purpose of converting the temperature sensor channel. In the future, I'll need to take a look at how to use multiple channels on ADC1 so I'm not gimping the chip's functionality.
